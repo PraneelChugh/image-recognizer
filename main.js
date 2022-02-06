@@ -17,7 +17,7 @@ function takesnapshot()
   console.log('ml5 version:', ml5.version);
   
   // Initialize the Image Classifier method with MobileNet
-classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/10QrFky_b/.json',modelLoaded);
+classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/10QrFky_b/model.json',modelLoaded);
 
   // When the model is loaded
   function modelLoaded() {
